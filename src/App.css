@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Remove default center alignment */
+.App-header {
+  background-color: #0a0a0f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #8b5cf6;
+}
+
+/* Ensure proper stacking context */
+section {
+  position: relative;
+}
+
+/* Smooth section transitions */
+section + section {
+  margin-top: 0;
+}
