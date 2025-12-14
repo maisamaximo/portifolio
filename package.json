@@ -2,7 +2,7 @@
   "name": "maisa-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maisamaximo.github.io/portfolio",
+  "homepage": "https://maisamaximo.github.io/portifolio",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
